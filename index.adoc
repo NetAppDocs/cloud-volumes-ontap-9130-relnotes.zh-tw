@@ -1,0 +1,15 @@
+---
+layout: astra 
+sidebar: sidebar 
+permalink: index.html 
+summary: 這些版本說明Cloud Volumes ONTAP 介紹有關發行版的功能、限制和已知問題。 
+---
+= 《》（英文Cloud Volumes ONTAP ）
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
