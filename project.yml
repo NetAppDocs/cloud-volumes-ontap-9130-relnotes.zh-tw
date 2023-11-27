@@ -83,3 +83,6 @@ sidebar:
     url: "/reference-provider-integrations.html"
   - title: 法律聲明
     url: "/legal-notices.html"
+product-family:
+  name: BlueXP
+  repo: bluexp-family
