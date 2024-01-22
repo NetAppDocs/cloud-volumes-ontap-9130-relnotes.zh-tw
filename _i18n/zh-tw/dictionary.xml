@@ -237,7 +237,6 @@ HA 配對：節點中的 18 個 ^1^</block>
   <block id="cee631121c2ec9232f3a2f028ad5c89b" category="cell">500</block>
   <block id="9dba50d3a2c2f26daddbf9d144c49772" category="cell">最小尺寸</block>
   <block id="e2fca4ed20d01d1eda8a934cf81cb194" category="cell">20 MB</block>
-  <block id="87338ad799bddd85c6298bb9270dc27f" category="cell">100 TiB</block>
   <block id="f870c45bb6c4b8bad8f13c8dc3439f98" category="cell">* qtree *</block>
   <block id="8032f0290a7c4e00a6da3a195523a94e" category="cell">每FlexVol 個速度區塊的最大值</block>
   <block id="38de34e4b49b8adfeb2c678818915204" category="cell">4、995</block>
@@ -417,7 +416,6 @@ HA 配對：節點中的 18 個 ^1^</block>
   <block id="41a0b1e6c6d31716c7d7b603ce6a4936" category="section-title">邏輯儲存限制</block>
   <block id="324f218b8144e744b54eb58e0bf14eea" category="cell">16 TB</block>
   <block id="302f571fec3e23b2236f116e51e46721" category="cell">階層式複製深度：^12^</block>
-  <block id="309524b9e1ef1d7d7d905c7cb1d358e9" category="cell">100 TB</block>
   <block id="7b9e5415e02ff7ad5eaae61345740517" category="inline-link">瞭解 Cloud Volumes ONTAP HA 配對在 Google Cloud 中的儲存功能如何運作</block>
   <block id="e14f9eb0a41dc045a4d5568d18e8170e" category="paragraph"><block ref="50d9731ce0bfc8e3757cc819b5895c1f" category="inline-link-rx"></block>。</block>
   <block id="a1998150800fd10b93e35cace9e4373f" category="summary">包含全新增強功能的支援功能Cloud Volumes ONTAP 。</block>
@@ -700,9 +698,6 @@ HA 配對：節點中的 18 個 ^1^</block>
   <block id="5313a9ac102424f63dd4d76f5280130e" category="sidebar">AWS的限制</block>
   <block id="1fff298355326f8c77bd77059a41c1a2" category="sidebar">Azure的限制</block>
   <block id="9a3a0c4b2afbb088e029484d4b34ba8b" category="sidebar">Google Cloud的限制</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
-  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
-  <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">解決方案ONTAP</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -714,4 +709,11 @@ HA 配對：節點中的 18 個 ^1^</block>
   <block id="fd164e9cb2bc1ac5405cabfe451663f7" category="cell">2 PIB （需要多個授權）</block>
   <block id="2dbd9a217bce4c7ba4ef467f57d6875c" category="paragraph">您可以為 Cloud Volumes ONTAP BYOL 單一節點或 HA 配對系統購買多個節點型授權、以分配超過 368 TiB 的容量、最多可分配 2 PIB 的最大測試和支援系統容量限制。請注意、磁碟限制可能會讓您無法單獨使用磁碟來達到容量限制。您可以超越磁碟限制<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>。雖然 Cloud Volumes ONTAP 支援最多 2 個 PIB 的最大測試和支援系統容量、但超過 2 個 PIB 限制會導致系統組態不受支援。</block>
   <block id="de9d6749570efc87e63811b5947fc250" category="paragraph">AWS Secret Cloud 和 Top Secret Cloud 地區支援從 Cloud Volumes ONTAP 9.12.1 開始購買多個節點型授權。</block>
+  <block id="64063abe39aac990beb215f4e4df9f92" category="cell">最大大小 ^2^</block>
+  <block id="d0bb632fcdb31cf3c729c1c59f826d4f" category="cell">128 TB</block>
+  <block id="95f8ab07e6196c13df81b9123cb42b19" category="cell">最大大小 ^3^</block>
+  <block id="4dd4655034851cefb46869bef690cc22" category="cell">300 TiB</block>
+  <block id="ae809759e1518d5c4c2019b9c03f15a1" category="list-text">從 ONTAP 9.12.1P2 開始、上限為 128 TB 。在 ONTAP 9.11.1 及更早版本中、上限為 16 TB 。</block>
+  <block id="23a69cce1857cb7ad696abba7e98194d" category="list-text">從 Cloud Volumes ONTAP 9.12.1 P2 和 9.13.0 P2 開始、系統管理員和 ONTAP CLI 可支援最多 300 TiB 的 FlexVol Volume 建立。</block>
+  <block id="ea8e9cb87ad8076ed2bdd562222045c8" category="cell">300 TB</block>
 </blocks>
