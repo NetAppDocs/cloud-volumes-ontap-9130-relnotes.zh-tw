@@ -302,7 +302,6 @@ HA 配對：節點中的 18 個 ^1^</block>
   <block id="a1834fbcd2847d469ef79f5526dcee65" category="inline-link">您應該參閱AWS以取得EC2執行個體類型的最新完整詳細資料</block>
   <block id="98ade5346ada08656e0c7b517b695d0f" category="paragraph">每Cloud Volumes ONTAP 個支援不同EC2執行個體類型的支援。為了方便起見、下表顯示每種支援執行個體類型的vCPU、RAM和頻寬。<block ref="7fe5ce03f92ccda8dcb0aa0fab836a1f" category="inline-link-rx"></block>。</block>
   <block id="c7d741925ef81824617c6a2975104e27" category="inline-link">NetApp 技術報告 4383 ： Cloud Volumes ONTAP 運用應用程式工作負載、將 Amazon Web Services 中的功能特性化</block>
-  <block id="5070622feb6e4e88eeee7983bad01de6" category="paragraph">下表所示的頻寬與每個執行個體類型的AWS記錄限制相符。這些限制並不完全符合Cloud Volumes ONTAP 本公司所能提供的功能。如需預期效能、請參閱<block ref="21181a62240b2a52719451cc8d855312" category="inline-link-rx"></block>。</block>
   <block id="4a7243646d30fc1e81eca2df9826cc03" category="cell">支援的執行個體</block>
   <block id="5d56dbd20d9ee1ab8a722ff12e331953" category="cell">VCPU</block>
   <block id="e53619c1fe611a51eeeb8d148ba6e532" category="cell">RAM</block>
@@ -716,4 +715,5 @@ HA 配對：節點中的 18 個 ^1^</block>
   <block id="ae809759e1518d5c4c2019b9c03f15a1" category="list-text">從 ONTAP 9.12.1P2 開始、上限為 128 TB 。在 ONTAP 9.11.1 及更早版本中、上限為 16 TB 。</block>
   <block id="23a69cce1857cb7ad696abba7e98194d" category="list-text">從 Cloud Volumes ONTAP 9.12.1 P2 和 9.13.0 P2 開始、系統管理員和 ONTAP CLI 可支援最多 300 TiB 的 FlexVol Volume 建立。</block>
   <block id="ea8e9cb87ad8076ed2bdd562222045c8" category="cell">300 TB</block>
+  <block id="b710bbf07a9ba1fa06f2e6f4e77a42db" category="paragraph">下表所示的頻寬與每個執行個體類型的AWS記錄限制相符。這些限制並不完全符合Cloud Volumes ONTAP 本公司所能提供的功能。如需預期效能、請<block ref="c23654021de34c23e6d408104aa3bf49" category="inline-link-rx"></block>參閱。</block>
 </blocks>
