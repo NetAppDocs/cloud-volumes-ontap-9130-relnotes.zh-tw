@@ -1,5 +1,9 @@
 ---
 indexpage:
+  title: Cloud Volumes ONTAP 9.13.0 版本資訊
+  summary: 這些版本說明Cloud Volumes ONTAP 介紹有關發行版的功能、限制和已知問題。
+  keywords: rn, cvo, release notes, cloud volumes ontap, known, limitations, new,
+    features, issues, 9.13.0, 9130
   lead: 這些版本說明Cloud Volumes ONTAP 介紹有關發行版的功能、限制和已知問題。
   tiles:
   - title: 開始使用
